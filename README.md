@@ -2,7 +2,7 @@
 
 For the programmer still stuck on JDK6
 
-![There's a better way!](images/homer.png)
+![There's a better way!](resources/homer.png)
 
 See [Examples.java](./Examples.java )
 
