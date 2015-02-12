@@ -3,6 +3,8 @@ import java.io.FileReader;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.security.SecureRandom;
+import java.util.List;
+import java.util.ArrayList;
 
 public class Examples
 {
@@ -44,6 +46,11 @@ public class Examples
         {
             System.out.println("I caught a : " + exception.getClass());
         }
+
+        // Diamond operator
+        List<String> list = new ArrayList<>();
+        list.add("A");
+        System.out.println("List: " + list);
     }
 
     public static class FirstException extends Exception {};
